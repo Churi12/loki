@@ -1,5 +1,19 @@
 ## Main
 
+## [0.10.3](https://github.com/grafana/loki/compare/operator/v0.10.2...operator/v0.10.3) (2026-06-15)
+
+
+### Features
+
+* **operator:** Update Loki operand to v3.7.2 ([#22075](https://github.com/grafana/loki/issues/22075)) ([01499dc](https://github.com/grafana/loki/commit/01499dc298a0366487110ca1f0c18d37faf8bb16))
+
+
+### Bug Fixes
+
+* **deps:** Update google.golang.org/grpc to v1.81.1 (main) ([#21852](https://github.com/grafana/loki/issues/21852)) ([1983d05](https://github.com/grafana/loki/commit/1983d05237f7eea0b58832cde42a2454b1f7e536))
+* **operator:** Bind opa-openshift to loopback interface ([#21203](https://github.com/grafana/loki/issues/21203)) ([f745bd9](https://github.com/grafana/loki/commit/f745bd9b8a5c2b5b256eba6efc2af72c2153675c))
+* **operator:** Clarify LokiIngesterFlushFailureRateCritical alert description ([#22341](https://github.com/grafana/loki/issues/22341)) ([bdae5cc](https://github.com/grafana/loki/commit/bdae5cc804356ff36b476f6e4aead8e5162aaf1d))
+
 ## [0.10.2](https://github.com/grafana/loki/compare/operator/v0.10.1...operator/v0.10.2) (2026-06-09)
 
 
